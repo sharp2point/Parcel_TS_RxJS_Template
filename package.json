@@ -1,0 +1,26 @@
+{
+  "name": "reactive01",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "parcel"
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "staticOutPath": "public",
+    "watcherGlob": "**"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "parcel-reporter-static-files-copy": "^1.5.3",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
+}
